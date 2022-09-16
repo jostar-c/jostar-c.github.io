@@ -13,6 +13,49 @@
             background-attachment: fixed;
             background-size: 100% 100%;
         }
+        .toutu {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+            padding-bottom: 60px;
+        }
+        .title1 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 300px;
+            margin: auto;
+            bottom: 0;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .title2 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 350px;
+            margin: auto;
+            bottom: 0;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .icon {
+            width: 15px;
+            height: 15px;
+            padding: 5px;
+            border: 2px solid #fff;
+            border-radius: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 80px;
+        }
         .jinju {
             color: red;
             font-size: 20px;
@@ -21,7 +64,13 @@
     </style>
 </head>
 <body>
-    <h1>目录</h1>
+    <div class="toutu">
+        <img src="https://img.zcool.cn/community/01e5ed5d5fbc0ca8012187f4bfc51d.jpg@1280w_1l_2o_100sh.jpg" width="100%" alt="载不出来 sad /(ㄒoㄒ)/~~">
+        <h3 class="title1">活着本身就很妙，如果连这道理都不懂，怎么去探索更深的东西呢？</h3>
+        <h3 class="title2">CSDN账号：二向箔清洁公司</h3>
+        <a href="#list"><img class="icon" src="https://img.ixintu.com/download/jpg/201912/ac22a95524c32dd8e469dcabb25a52fa.jpg!ys" alt="载不出来 sad /(ㄒoㄒ)/~~"></a>
+    </div>
+    <h1 id="list">目录</h1>
     <ol>
         <li>
             <h3><a href="#introduce"> 自我介绍 </a></h3>
